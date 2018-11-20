@@ -36,6 +36,7 @@ export class PostsService {
     newPost.loveIts = 0;
     this.posts.push(newPost);
     this.savePosts();
+	this.emitPosts();
     
   }
 
